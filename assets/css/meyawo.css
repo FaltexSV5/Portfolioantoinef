@@ -5179,6 +5179,12 @@ input[type="button"].btn-block {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.social {
+  width: 35px; 
+  height: 35px; 
+  margin-left: 35px;
+  margin-top: 20px;
+}
 
 .card-deck .card {
   margin-bottom: 15px;
@@ -11405,6 +11411,12 @@ p {
   margin-bottom: 30px;
   border-radius: 0;
   overflow: hidden;
+  width: 900px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
 }
 
 .blog-card-header {
@@ -11470,7 +11482,7 @@ p {
   .blog-card .blog-card-header {
     width: 100%;
     max-width: 100%;
-    min-width: 100%;
+    min-width: 50%;
   }
 }
 .centered-image {
@@ -12175,7 +12187,7 @@ pre .code {
 }
 
 .about-img-holder {
-  min-width: 400px;
+  min-width: 50px;
   max-width: 400px;
   margin-right: 201px;
 }
